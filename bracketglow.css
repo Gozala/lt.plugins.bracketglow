@@ -1,0 +1,21 @@
+@-webkit-keyframes glowing-pulse {
+  0% {
+    text-shadow: 0 0 3px;
+    opacity: 0.7;
+  }
+  100% {
+    text-shadow: 0 0 2px,
+                 0 0 3px;
+    opacity: 0.9;
+  }
+}
+
+
+.CodeMirror-matchingbracket {
+  -webkit-animation: glowing-pulse 0.7s infinite alternate ease-in-out;
+}
+
+.CodeMirror-nonmatchingbracket {
+    color: red;
+  -webkit-animation: glowing-pulse 0.1s infinite alternate ease-in-out;
+}
