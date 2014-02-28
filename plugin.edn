@@ -1,5 +1,5 @@
 {:name "Bracket glow"
- :version "0.0.1"
+ :version "0.0.2"
  :author "Irakli Gozalishvili"
  :source "https://github.com/Gozala/lt.plugins.bracketglow"
  :desc "Adds visual glow to a (un)matching brackets"
