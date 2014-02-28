@@ -11,11 +11,11 @@
 }
 
 
-.CodeMirror-matchingbracket {
+body.active .CodeMirror-matchingbracket {
   -webkit-animation: glowing-pulse 0.7s infinite alternate ease-in-out;
 }
 
-.CodeMirror-nonmatchingbracket {
-    color: red;
+body.active .CodeMirror-nonmatchingbracket {
+  color: red;
   -webkit-animation: glowing-pulse 0.1s infinite alternate ease-in-out;
 }
